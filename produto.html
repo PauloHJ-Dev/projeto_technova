@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH NOVA-Promoções</title>
+
+    <link rel="stylesheet" href="produto.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+<main>
+    <header>
+        <div class="container-nav">
+
+             <a href="index.html" class="logo">
+                <img src="img/logo7.png" alt="logo" class="logo">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="cadastro.html">Promoções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--PRODUTO-->
+    <div class="container">
+
+   <section class="produto">
+
+    <div class="produto-imagem">
+        <img src="img/note_gamer.png" alt="Notebook Gamer">
+    </div>
+
+    <div class="produto-info">
+        <h1>Notebook Gamer</h1>
+        <p class="descricao">Notebook gamer de alta performance, ideal para jogos e trabalhos pesados. Design moderno e robusto.</p>
+         <p class="preco">R$ 5.999,00</p>
+        <a href="" class="comprar">Comprar</a>
+    </div>
+
+</section>
+
+<!--ESPECIFICAÇOES-->
+
+<section class="especificacoes">
+
+   <h2>Especificações</h2>
+
+    <ul>
+        <li><span>Processador</span> Intel Core i7</li>
+        <li><span>Memória RAM</span> 16GB DDR4</li>
+        <li><span>Armazenamento</span> 512GB SSD</li>
+        <li><span>Placa de Vídeo</span> NVIDIA RTX 3060</li>
+        <li><span>Tela</span> 15.6" Full HD 144Hz</li>
+        <li><span>Sistema Operacional</span> Windows 11</li>
+    </ul>
+
+</section>
+
+     </div>
+
+     <div id="container">
+        <h1 class="titulo">Dúvidas</h1>
+    <form id="product-form">
+        <input type="text" id="product-price" placeholder="Seu nome" required>
+        <textarea id="product-name" placeholder="Escreva sua dúvida..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Dúvida</th>
+                </tr>
+            </thead>
+            <tbody id="product-list">
+            </tbody>
+        </table>
+    </div>
+    
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 - TECH NOVA | Desenvolvido por Paulo Henrique
+        </p>
+
+    </footer>
+
+
+<script src="produto.js"></script>
+</body>
+</html>
